@@ -1,0 +1,4 @@
+{
+ "_comment": "Real-hardware test results. Add an entry only for a test someone actually ran on a physical phone: {\"id\": \"001\", \"device\": \"Nokia 6300\", \"firmware\": \"...\", \"result\": \"pass\", \"reporter\": \"github-username\", \"date\": \"YYYY-MM-DD\", \"notes\": \"...\"}",
+ "reports": []
+}

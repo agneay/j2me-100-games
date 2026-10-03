@@ -28,6 +28,11 @@ CORE = [
     ("org/eclipse/jdt/ecj/3.26.0/ecj-3.26.0.jar", "ac0ba5876eaf7ebb47749a0d1be179c51f194b9dd0b875d1c09e1b530f5a2db5"),
 ]
 
+# Third-party emulator used for the independent smoke test (tools/microemu_check.py)
+MICROEMU = [
+    ("org/microemu/microemulator/2.0.4/microemulator-2.0.4.jar", "dbd5f3eb8365d3e839d6a203149e0e3776fc1a0585e16ac1fc23f76c9fcae1c6"),
+]
+
 T = "org/teavm/"
 TEAVM = [
     ("com/carrotsearch/hppc/0.9.1/hppc-0.9.1.jar", "d58706a2be60c972452550cdba79870bf481447c50eb718308e33a6ba45c65ec"),
@@ -89,6 +94,9 @@ def main():
     n = 0
     for rel, digest in CORE:
         n += fetch(rel, digest, LIB)
+    if "--no-microemu" not in sys.argv:
+        for rel, digest in MICROEMU:
+            n += fetch(rel, digest, os.path.join(LIB, "microemu"))
     if "--no-teavm" not in sys.argv:
         for rel, digest in TEAVM:
             n += fetch(rel, digest, os.path.join(LIB, "teavm"))

@@ -12,6 +12,7 @@
 
   Use the wrappers (tools/ant.sh, tools/ant.cmd) to run Ant from tools/lib
   without installing it. A single game: tools/build-game.sh 001
+  Parallel build of everything: tools/build-all.sh; release ZIP: tools/package.sh
 -->
 <project name="j2me-100-games" default="dist" basedir=".">
     <property name="lib.dir" location="tools/lib"/>
@@ -37,6 +38,14 @@
                 <attribute name="Main-Class" value="emu.desktop.Harness"/>
             </manifest>
         </jar>
+        <antcall target="-teabuild"/>
+    </target>
+
+    <target name="-teabuild-check">
+        <available property="teavm.present" file="${lib.dir}/teavm" type="dir"/>
+    </target>
+
+    <target name="-teabuild" depends="-teabuild-check" if="teavm.present">
         <mkdir dir="${tools.build}/teabuild"/>
         <javac srcdir="tools/teavm" destdir="${tools.build}/teabuild" includeantruntime="false" release="17"
                encoding="UTF-8" fork="true">
@@ -70,7 +79,11 @@
         </subant>
     </target>
 
-    <target name="package" depends="dist" description="Collect release assets and the all-games ZIP">
+    <target name="-package-dist" unless="skip.dist">
+        <antcall target="dist"/>
+    </target>
+
+    <target name="package" depends="-package-dist" description="Collect release assets and the all-games ZIP">
         <delete dir="${release.dir}"/>
         <mkdir dir="${release.dir}/games"/>
         <copy todir="${release.dir}/games" flatten="true">
@@ -80,6 +93,7 @@
             <zipfileset dir="${release.dir}/games" prefix="j2me-100-games"/>
             <zipfileset file="LICENSE" prefix="j2me-100-games"/>
             <zipfileset file="docs/installing.md" prefix="j2me-100-games"/>
+            <zipfileset file="README.md" prefix="j2me-100-games"/>
         </zip>
     </target>
 

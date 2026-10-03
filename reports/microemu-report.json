@@ -1,0 +1,707 @@
+{
+ "emulator": "MicroEmulator 2.0.4 (headless, default 176x220 device)",
+ "method": "load JAD, press 5, 6 s of random keypad input; fail on exceptions, crashed game loop, blank screen",
+ "generated": "2026-10-03",
+ "games": [
+  {
+   "id": "001",
+   "name": "Retro Snake",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "002",
+   "name": "Pixel Paddle",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "003",
+   "name": "Block Fall",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "004",
+   "name": "Mine Sweep",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "005",
+   "name": "Keypad Chess",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "006",
+   "name": "Brick Buster",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "007",
+   "name": "Number Place",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "008",
+   "name": "Pixel Jumper",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "009",
+   "name": "Traffic Dash",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "010",
+   "name": "Tower Guard",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "011",
+   "name": "Star Defender",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "012",
+   "name": "Tile Merge",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "013",
+   "name": "Four Drop",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "014",
+   "name": "Twenty-One",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "015",
+   "name": "Dungeon Quest",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "016",
+   "name": "Spot Kick",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.4
+  },
+  {
+   "id": "017",
+   "name": "Pocket Farm",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "018",
+   "name": "Echo Tones",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "019",
+   "name": "Rock Blaster",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "020",
+   "name": "Crate Pusher",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "021",
+   "name": "Noughts Grid",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "022",
+   "name": "Sky Hopper",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "023",
+   "name": "Moto Rush",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "024",
+   "name": "Sea Strike",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "025",
+   "name": "Klondike",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.3
+  },
+  {
+   "id": "026",
+   "name": "Monster Duel",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "027",
+   "name": "Mini Golf",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "028",
+   "name": "Lake Fishing",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "029",
+   "name": "Multitap Rush",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "030",
+   "name": "Fruit Catcher",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "031",
+   "name": "Slide Fifteen",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "032",
+   "name": "Flip Disc",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "033",
+   "name": "Cave Escape",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "034",
+   "name": "Checkpoint Rally",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "035",
+   "name": "Box Claim",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "036",
+   "name": "Hi-Lo Cards",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "037",
+   "name": "Island Dig",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "038",
+   "name": "Ten Pin",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "039",
+   "name": "Corner Shop",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "040",
+   "name": "Mole Bonk",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "041",
+   "name": "Gem Swap",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.3
+  },
+  {
+   "id": "042",
+   "name": "Keypad Checkers",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "043",
+   "name": "Ladder Loot",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.2
+  },
+  {
+   "id": "044",
+   "name": "Drag Strip",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "045",
+   "name": "Land Grab",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "046",
+   "name": "Draw Poker",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "047",
+   "name": "Lost Keep",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "048",
+   "name": "Hoop Shot",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.1
+  },
+  {
+   "id": "049",
+   "name": "Deep Mine",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "050",
+   "name": "Orbit Jump",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "051",
+   "name": "Light Trails",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.3
+  },
+  {
+   "id": "052",
+   "name": "Pixel Logic",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "053",
+   "name": "Five Stones",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "054",
+   "name": "Treasure Run",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "055",
+   "name": "Snow Slalom",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "056",
+   "name": "Kingdom Ledger",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "057",
+   "name": "Cell Solitaire",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "058",
+   "name": "Pocket Saga",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "059",
+   "name": "Pocket Cricket",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "060",
+   "name": "Diner Rush",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "061",
+   "name": "City Shield",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "062",
+   "name": "Switch Grid",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "063",
+   "name": "Seed Sowing",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "064",
+   "name": "Gravity Flip",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "065",
+   "name": "Hill Climb",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "066",
+   "name": "Galaxy Conquest",
+   "status": "pass",
+   "detail": "",
+   "seconds": 9.0
+  },
+  {
+   "id": "067",
+   "name": "Eights Shed",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "068",
+   "name": "Arena Champion",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.9
+  },
+  {
+   "id": "069",
+   "name": "Court Rally",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "070",
+   "name": "Tiny City",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "071",
+   "name": "Road Hopper",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "072",
+   "name": "Pipe Flow",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "073",
+   "name": "Nim Sticks",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "074",
+   "name": "Barrel Climb",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "075",
+   "name": "Pixel Racer",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "076",
+   "name": "Grid Tactics",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "077",
+   "name": "Memory Cards",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "078",
+   "name": "Deep Crawl 3D",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "079",
+   "name": "Bullseye",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "080",
+   "name": "Factory Line",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "081",
+   "name": "Copter Cave",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "082",
+   "name": "Code Breaker",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "083",
+   "name": "Race Home",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "084",
+   "name": "Wall Kick",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "085",
+   "name": "Ring Racer",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "086",
+   "name": "Siege Lanes",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "087",
+   "name": "Domino Line",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "088",
+   "name": "Spell Deck",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "089",
+   "name": "Puck Rush",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "090",
+   "name": "Lemon Stand",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "091",
+   "name": "Bubble Shot",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "092",
+   "name": "Laser Mirrors",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "093",
+   "name": "Peg Jump",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.8
+  },
+  {
+   "id": "094",
+   "name": "Volley Beach",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "095",
+   "name": "Pet Pal",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "096",
+   "name": "Space Trader",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "097",
+   "name": "Rail Switcher",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "098",
+   "name": "Morse Signal",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.7
+  },
+  {
+   "id": "099",
+   "name": "Math Blitz",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  },
+  {
+   "id": "100",
+   "name": "Cell Garden",
+   "status": "pass",
+   "detail": "",
+   "seconds": 8.6
+  }
+ ]
+}

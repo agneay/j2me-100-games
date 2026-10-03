@@ -1,0 +1,1820 @@
+{
+ "summary": {
+  "generated": "2026-10-03 17:22",
+  "total_games": 100,
+  "buildable": 100,
+  "jar_files": 100,
+  "jad_files": 100,
+  "readme_files": 100,
+  "reference_runtime_tested": 100,
+  "emulator_tested": 100,
+  "real_hardware_tested": 0,
+  "game_releases_published": null,
+  "milestone_releases_published": null,
+  "failed_builds": [],
+  "errors": [],
+  "warnings": []
+ },
+ "games": [
+  {
+   "id": "001",
+   "name": "Retro Snake",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17756,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "002",
+   "name": "Pixel Paddle",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17500,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "003",
+   "name": "Block Fall",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18847,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "004",
+   "name": "Mine Sweep",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18487,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "005",
+   "name": "Keypad Chess",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 22154,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "006",
+   "name": "Brick Buster",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18909,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "007",
+   "name": "Number Place",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18964,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "008",
+   "name": "Pixel Jumper",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 22746,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "009",
+   "name": "Traffic Dash",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18777,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "010",
+   "name": "Tower Guard",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20294,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "011",
+   "name": "Star Defender",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19199,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "012",
+   "name": "Tile Merge",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17950,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "013",
+   "name": "Four Drop",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18688,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "014",
+   "name": "Twenty-One",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20502,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "015",
+   "name": "Dungeon Quest",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 21724,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "016",
+   "name": "Spot Kick",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18998,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "017",
+   "name": "Pocket Farm",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18829,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "018",
+   "name": "Echo Tones",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17483,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "019",
+   "name": "Rock Blaster",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18757,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "020",
+   "name": "Crate Pusher",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19890,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "021",
+   "name": "Noughts Grid",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18499,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "022",
+   "name": "Sky Hopper",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18369,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "023",
+   "name": "Moto Rush",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19503,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "024",
+   "name": "Sea Strike",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18701,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "025",
+   "name": "Klondike",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20886,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "026",
+   "name": "Monster Duel",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 21144,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "027",
+   "name": "Mini Golf",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19044,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "028",
+   "name": "Lake Fishing",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19120,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "029",
+   "name": "Multitap Rush",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18729,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "030",
+   "name": "Fruit Catcher",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18350,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "031",
+   "name": "Slide Fifteen",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 16937,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "032",
+   "name": "Flip Disc",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18834,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "033",
+   "name": "Cave Escape",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 22235,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "034",
+   "name": "Checkpoint Rally",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18581,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "035",
+   "name": "Box Claim",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18398,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "036",
+   "name": "Hi-Lo Cards",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19739,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "037",
+   "name": "Island Dig",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19200,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "038",
+   "name": "Ten Pin",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19701,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "039",
+   "name": "Corner Shop",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19965,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "040",
+   "name": "Mole Bonk",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17807,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "041",
+   "name": "Gem Swap",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18402,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "042",
+   "name": "Keypad Checkers",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19195,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "043",
+   "name": "Ladder Loot",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19956,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "044",
+   "name": "Drag Strip",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19410,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "045",
+   "name": "Land Grab",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17820,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "046",
+   "name": "Draw Poker",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20081,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "047",
+   "name": "Lost Keep",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20851,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "048",
+   "name": "Hoop Shot",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18037,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "049",
+   "name": "Deep Mine",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20014,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "050",
+   "name": "Orbit Jump",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17658,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "051",
+   "name": "Light Trails",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18067,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "052",
+   "name": "Pixel Logic",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18498,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "053",
+   "name": "Five Stones",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17935,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "054",
+   "name": "Treasure Run",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18264,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "055",
+   "name": "Snow Slalom",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17983,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "056",
+   "name": "Kingdom Ledger",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18546,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "057",
+   "name": "Cell Solitaire",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20219,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "058",
+   "name": "Pocket Saga",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 21231,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "059",
+   "name": "Pocket Cricket",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19119,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "060",
+   "name": "Diner Rush",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18692,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "061",
+   "name": "City Shield",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18576,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "062",
+   "name": "Switch Grid",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17197,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "063",
+   "name": "Seed Sowing",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18927,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "064",
+   "name": "Gravity Flip",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17222,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "065",
+   "name": "Hill Climb",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17834,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "066",
+   "name": "Galaxy Conquest",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18482,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "067",
+   "name": "Eights Shed",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 20402,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "068",
+   "name": "Arena Champion",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19010,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "069",
+   "name": "Court Rally",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18253,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "070",
+   "name": "Tiny City",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18746,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "071",
+   "name": "Road Hopper",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17823,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "072",
+   "name": "Pipe Flow",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17534,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "073",
+   "name": "Nim Sticks",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17579,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "074",
+   "name": "Barrel Climb",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17927,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "075",
+   "name": "Pixel Racer",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18712,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "076",
+   "name": "Grid Tactics",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19509,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "077",
+   "name": "Memory Cards",
+   "category": "Card",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19514,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "078",
+   "name": "Deep Crawl 3D",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18541,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "079",
+   "name": "Bullseye",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17400,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "080",
+   "name": "Factory Line",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17309,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "081",
+   "name": "Copter Cave",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 16815,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "082",
+   "name": "Code Breaker",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17351,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "083",
+   "name": "Race Home",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18426,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "084",
+   "name": "Wall Kick",
+   "category": "Platformer",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17016,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "085",
+   "name": "Ring Racer",
+   "category": "Racing",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17135,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "086",
+   "name": "Siege Lanes",
+   "category": "Strategy",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17667,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "087",
+   "name": "Domino Line",
+   "category": "Board",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18199,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "088",
+   "name": "Spell Deck",
+   "category": "RPG",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19242,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "089",
+   "name": "Puck Rush",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17614,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "090",
+   "name": "Lemon Stand",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19395,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "091",
+   "name": "Bubble Shot",
+   "category": "Arcade",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19019,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "092",
+   "name": "Laser Mirrors",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18606,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "093",
+   "name": "Peg Jump",
+   "category": "Puzzle",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18164,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "094",
+   "name": "Volley Beach",
+   "category": "Sports",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 18054,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "095",
+   "name": "Pet Pal",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19123,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "096",
+   "name": "Space Trader",
+   "category": "Simulation",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19116,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "097",
+   "name": "Rail Switcher",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17597,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "098",
+   "name": "Morse Signal",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 19169,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "099",
+   "name": "Math Blitz",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17595,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  },
+  {
+   "id": "100",
+   "name": "Cell Garden",
+   "category": "Experimental",
+   "source": true,
+   "build_xml": true,
+   "readme": true,
+   "media": true,
+   "jar": true,
+   "jad": true,
+   "jar_size": 17983,
+   "class_versions": [
+    45
+   ],
+   "reference_runtime": true,
+   "microemulator": true,
+   "real_device": false
+  }
+ ]
+}

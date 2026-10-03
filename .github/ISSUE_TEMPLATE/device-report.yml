@@ -1,0 +1,54 @@
+name: Device / emulator report
+description: Tell us how a game ran on a real phone or an emulator
+title: "[Device report] <phone or emulator> - <game(s)>"
+labels: ["device-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Please only report what you actually tried. Reports are used to update the
+        verification tables, so accuracy matters more than completeness.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Hardware or emulator?
+      options:
+        - Real phone
+        - Emulator
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model or emulator name and version
+      placeholder: e.g. a Series 40 phone with firmware version, or J2ME Loader 1.8
+    validations:
+      required: true
+  - type: input
+    id: games
+    attributes:
+      label: Game(s) tested
+      placeholder: e.g. 001 Retro Snake, 005 Keypad Chess
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version / release tag
+      placeholder: game-001-v1.0.0
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Works fully
+        - Works with problems
+        - Does not install
+        - Installs but crashes / does not start
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: How you installed, screen size, speed, key or display problems, sound, anything else.

@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in a game, the build or the website does not work
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Game or component
+      placeholder: e.g. 042 Keypad Checkers / website / build
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Phone, emulator, browser or OS
+      placeholder: e.g. MicroEmulator 2.0.4 at 176x220
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened and how to reproduce it
+      description: Keys pressed, what you expected, what you saw. Screenshots help.
+    validations:
+      required: true

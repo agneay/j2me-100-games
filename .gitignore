@@ -11,3 +11,4 @@ games/*/dist/
 release/
 website/_site/
 reports/tmp/
+reports/tmp-*.log
