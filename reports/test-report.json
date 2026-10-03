@@ -2519,6 +2519,366 @@
      "size": "240x320"
     }
    ]
+  },
+  "071": {
+   "game": "Road Hopper",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "072": {
+   "game": "Pipe Flow",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "073": {
+   "game": "Nim Sticks",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 169,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "074": {
+   "game": "Barrel Climb",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 169,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "075": {
+   "game": "Pixel Racer",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "076": {
+   "game": "Grid Tactics",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 169,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "077": {
+   "game": "Memory Cards",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "078": {
+   "game": "Deep Crawl 3D",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "079": {
+   "game": "Bullseye",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 169,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 167,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "080": {
+   "game": "Factory Line",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 171,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 169,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
   }
  },
  "sizes": [
