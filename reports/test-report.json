@@ -2447,6 +2447,78 @@
      "size": "240x320"
     }
    ]
+  },
+  "069": {
+   "game": "Court Rally",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 165,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "070": {
+   "game": "Tiny City",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 139,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 165,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
   }
  },
  "sizes": [
