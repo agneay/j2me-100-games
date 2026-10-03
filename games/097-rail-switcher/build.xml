@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="game-097" default="dist" basedir=".">
+    <import file="../../tools/ant/game-build.xml"/>
+</project>
