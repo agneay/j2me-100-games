@@ -1439,6 +1439,366 @@
      "size": "240x320"
     }
    ]
+  },
+  "041": {
+   "game": "Gem Swap",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "042": {
+   "game": "Keypad Checkers",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "043": {
+   "game": "Ladder Loot",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "044": {
+   "game": "Drag Strip",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "045": {
+   "game": "Land Grab",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "046": {
+   "game": "Draw Poker",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "047": {
+   "game": "Lost Keep",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "048": {
+   "game": "Hoop Shot",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "049": {
+   "game": "Deep Mine",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 143,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "050": {
+   "game": "Orbit Jump",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 143,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
   }
  },
  "sizes": [
