@@ -367,7 +367,7 @@ def verification_md(games, vs, tests, me, devices):
         "| Emulator verified | %d / %d | `tools/microemu_check.py`: the JAD/JAR is loaded by the independent "
         "MicroEmulator 2.0.4 in headless mode (default 176x220 device). The game is started with 5 and fed random "
         "keypad input for %s. Fails on exceptions, a crashed loop or a blank screen; screenshots are rendered by "
-        "MicroEmulator itself. |" % (c["emulator"], c["total"], secs(me)),
+        "MicroEmulator itself. Errors from a missing sound device on the host (CI machines have none) are ignored. |" % (c["emulator"], c["total"], secs(me)),
         "| Real device verified | %d / %d | A person ran the game on physical hardware and reported it. |" % (c["device"], c["total"]),
         "",
         "### What this does not prove",

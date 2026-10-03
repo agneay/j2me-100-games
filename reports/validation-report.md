@@ -1,6 +1,6 @@
 # Validation report
 
-Generated 2026-10-03 17:22 by `tools/validate.py`.
+Generated 2026-10-03 17:50 by `tools/validate.py`.
 
 | Metric | Value |
 |---|---|
@@ -12,8 +12,8 @@ Generated 2026-10-03 17:22 by `tools/validate.py`.
 | Reference-runtime tested (5 resolutions) | 100 |
 | Emulator tested (MicroEmulator 2.0.4) | 100 |
 | Real-hardware tested | 0 |
-| Per-game GitHub Releases | not yet published |
-| Milestone releases | not yet published |
+| Per-game GitHub Releases | 100 |
+| Milestone releases | 10 |
 | Failed builds | none |
 
 ## Errors

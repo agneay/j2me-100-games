@@ -44,7 +44,10 @@ public class MicroEmuCheck {
         System.setOut(tee);
         System.setErr(tee);
         String verdict = run(url, out, seconds);
-        String text = log.toString();
+        // Headless CI machines have no sound device: MicroEmulator's own tone generator then logs
+        // "No line matching interface SourceDataLine". That is the host, not the game, so drop
+        // those lines (and their stack traces) before looking for exceptions.
+        String text = withoutAudioErrors(log.toString());
         if (verdict == null && (text.contains("Exception") || text.contains("Error:"))) {
             int i = text.indexOf("Exception");
             if (i < 0) i = text.indexOf("Error:");
@@ -56,6 +59,24 @@ public class MicroEmuCheck {
         realOut.println(verdict == null ? "PASS" : "FAIL " + verdict);
         realOut.flush();
         Runtime.getRuntime().halt(verdict == null ? 0 : 1);
+    }
+
+    static String withoutAudioErrors(String text) {
+        StringBuffer out = new StringBuffer();
+        boolean skipping = false;
+        String[] lines = text.split("\n");
+        for (int i = 0; i < lines.length; i++) {
+            String l = lines[i];
+            if (l.indexOf("SourceDataLine") >= 0 || l.indexOf("javax.sound") >= 0) {
+                skipping = true;
+                continue;
+            }
+            String t = l.trim();
+            if (skipping && (t.startsWith("at ") || t.startsWith("..."))) continue;
+            skipping = false;
+            out.append(l).append('\n');
+        }
+        return out.toString();
     }
 
     static DisplayAccess display() {

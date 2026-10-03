@@ -1,6 +1,6 @@
 {
  "summary": {
-  "generated": "2026-10-03 17:22",
+  "generated": "2026-10-03 17:50",
   "total_games": 100,
   "buildable": 100,
   "jar_files": 100,
@@ -9,8 +9,8 @@
   "reference_runtime_tested": 100,
   "emulator_tested": 100,
   "real_hardware_tested": 0,
-  "game_releases_published": null,
-  "milestone_releases_published": null,
+  "game_releases_published": 100,
+  "milestone_releases_published": 10,
   "failed_builds": [],
   "errors": [],
   "warnings": []
