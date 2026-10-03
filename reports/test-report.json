@@ -1799,6 +1799,366 @@
      "size": "240x320"
     }
    ]
+  },
+  "051": {
+   "game": "Light Trails",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "052": {
+   "game": "Pixel Logic",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "053": {
+   "game": "Five Stones",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "054": {
+   "game": "Treasure Run",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 145,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "055": {
+   "game": "Snow Slalom",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "056": {
+   "game": "Kingdom Ledger",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "057": {
+   "game": "Cell Solitaire",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "058": {
+   "game": "Pocket Saga",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "059": {
+   "game": "Pocket Cricket",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 160,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 166,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 139,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "060": {
+   "game": "Diner Rush",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 161,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 173,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 168,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 165,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 139,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
   }
  },
  "sizes": [
