@@ -2159,6 +2159,294 @@
      "size": "240x320"
     }
    ]
+  },
+  "061": {
+   "game": "City Shield",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "062": {
+   "game": "Switch Grid",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "063": {
+   "game": "Seed Sowing",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "064": {
+   "game": "Gravity Flip",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 143,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "065": {
+   "game": "Hill Climb",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "066": {
+   "game": "Galaxy Conquest",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 150,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 141,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "067": {
+   "game": "Eights Shed",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
+  },
+  "068": {
+   "game": "Arena Champion",
+   "ok": true,
+   "results": [
+    {
+     "error": null,
+     "frames": 149,
+     "ok": true,
+     "size": "128x128"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "128x160"
+    },
+    {
+     "error": null,
+     "frames": 140,
+     "ok": true,
+     "size": "176x208"
+    },
+    {
+     "error": null,
+     "frames": 144,
+     "ok": true,
+     "size": "176x220"
+    },
+    {
+     "error": null,
+     "frames": 142,
+     "ok": true,
+     "size": "240x320"
+    }
+   ]
   }
  },
  "sizes": [
