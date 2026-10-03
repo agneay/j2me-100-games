@@ -51,7 +51,7 @@ def compile_check():
                    check=True)
 
 
-def check(g, seconds, work):
+def check(g, seconds, work, retried=False):
     dist = Path(g["dir"]) / "dist"
     jad = dist / (g["jar"] + ".jad")
     if not jad.exists():
@@ -74,8 +74,16 @@ def check(g, seconds, work):
     except subprocess.TimeoutExpired:
         line = "FAIL timed out"
     status = "pass" if line == "PASS" else "fail"
-    return {"id": g["id"], "name": g["name"], "status": status,
-            "detail": "" if status == "pass" else line[5:], "seconds": round(time.time() - t0, 1)}
+    result = {"id": g["id"], "name": g["name"], "status": status,
+              "detail": "" if status == "pass" else line[5:], "seconds": round(time.time() - t0, 1)}
+    # MicroEmulator 2.0.4 has an unsynchronised paint-event merge in its own EventDispatcher that very
+    # occasionally throws when a game repaints from its loop thread. Retry such emulator-internal
+    # failures once and keep a record of it; failures in game code are never retried.
+    if status == "fail" and "org.microemu." in line and not retried:
+        again = check(g, seconds, work, retried=True)
+        again["retried_after"] = result["detail"]
+        return again
+    return result
 
 
 def main():
