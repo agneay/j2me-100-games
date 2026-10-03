@@ -61,6 +61,16 @@ public final class FMath {
         return v < lo ? lo : (v > hi ? hi : v);
     }
 
+    /** Number of set bits (Integer.bitCount is not in CLDC 1.0). */
+    public static int bits(int v) {
+        int n = 0;
+        while (v != 0) {
+            v &= v - 1;
+            n++;
+        }
+        return n;
+    }
+
     public static int sign(int v) {
         return v > 0 ? 1 : (v < 0 ? -1 : 0);
     }

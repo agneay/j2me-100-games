@@ -40,7 +40,9 @@ public abstract class Game extends Canvas implements Runnable {
     protected int held;
     /** Keys newly pressed (or auto-repeated directions) since the last tick. */
     protected int pressed;
-    private int latch, down;
+    /** Keys newly pressed since the last tick, excluding auto-repeat. */
+    protected int tapped;
+    private int latch, down, latchTap;
 
     /** Screen size, refreshed every tick and every paint. */
     protected int W, H;
@@ -112,6 +114,11 @@ public abstract class Game extends Canvas implements Runnable {
 
     /** Format a score for display (override for times, money...). */
     protected String formatScore(int s) { return String.valueOf(s); }
+
+    /** Text under the title menu; defaults to the best score. */
+    protected String footer() {
+        return hasScore() && best() != 0 ? "Best: " + formatScore(best()) : "J2ME Game Archive";
+    }
 
     /** Keys that open the pause menu during play. */
     protected int pauseKeys() { return K_STAR | K_SOFT; }
@@ -248,6 +255,7 @@ public abstract class Game extends Canvas implements Runnable {
         int b = bits(code);
         synchronized (this) {
             latch |= b;
+            latchTap |= b;
             down |= b;
         }
     }
@@ -303,6 +311,8 @@ public abstract class Game extends Canvas implements Runnable {
         synchronized (this) {
             pressed = latch;
             latch = 0;
+            tapped = latchTap;
+            latchTap = 0;
             held = down | pressed;
         }
         W = getWidth();
@@ -498,8 +508,7 @@ public abstract class Game extends Canvas implements Runnable {
         }
         g.setFont(Gfx.SMALL);
         g.setColor(0x9FB2C0);
-        String foot = hasScore() && best() != 0 ? "Best: " + formatScore(best()) : "J2ME Game Archive";
-        g.drawString(foot, W / 2, H - footH, Graphics.TOP | Graphics.HCENTER);
+        g.drawString(footer(), W / 2, H - footH, Graphics.TOP | Graphics.HCENTER);
     }
 
     private void drawHelp(Graphics g) {
@@ -581,7 +590,9 @@ public abstract class Game extends Canvas implements Runnable {
         g.setFont(f);
         if (hasScore()) {
             g.setColor(0xFFFFFF);
-            g.drawString("Score: " + formatScore(score), W / 2, y, Graphics.TOP | Graphics.HCENTER);
+            // a lost time-trial has no meaningful time to show
+            String sc = lowerIsBetter() && !won ? "No time set" : "Score: " + formatScore(score);
+            g.drawString(sc, W / 2, y, Graphics.TOP | Graphics.HCENTER);
             y += lh;
             g.setColor(newBest ? 0xFFDD44 : 0x9FB2C0);
             String b = newBest ? "NEW BEST!" : (best() != 0 ? "Best: " + formatScore(best()) : "");
