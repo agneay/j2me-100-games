@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  J2ME Game Archive - repository build.
+
+    ant tools      build the desktop reference runtime (harness, icon generator, TeaVM driver)
+    ant dist       build JAR + JAD for every game          (default)
+    ant test       dist + headless smoke test of every game at 5 resolutions
+    ant media      screenshots + gameplay GIFs for the website
+    ant web        browser demos (TeaVM) for every game
+    ant package    collect release files + the all-games ZIP into release/
+    ant clean
+
+  Use the wrappers (tools/ant.sh, tools/ant.cmd) to run Ant from tools/lib
+  without installing it. A single game: tools/build-game.sh 001
+-->
+<project name="j2me-100-games" default="dist" basedir=".">
+    <property name="lib.dir" location="tools/lib"/>
+    <property name="tools.build" location="tools/build"/>
+    <property name="release.dir" location="release"/>
+    <property name="collection.version" value="1.0.0"/>
+    <property name="games.include" value="*/build.xml"/>
+
+    <path id="game.builds">
+        <fileset dir="games" includes="${games.include}"/>
+    </path>
+
+    <target name="tools" description="Build the reference runtime and build helpers">
+        <delete dir="${tools.build}"/>
+        <mkdir dir="${tools.build}/emu-classes"/>
+        <javac destdir="${tools.build}/emu-classes" includeantruntime="false" release="17" encoding="UTF-8"
+               debug="true" fork="true">
+            <src path="emu/core/src"/>
+            <src path="emu/desktop/src"/>
+        </javac>
+        <jar destfile="${tools.build}/emu-desktop.jar" basedir="${tools.build}/emu-classes">
+            <manifest>
+                <attribute name="Main-Class" value="emu.desktop.Harness"/>
+            </manifest>
+        </jar>
+        <mkdir dir="${tools.build}/teabuild"/>
+        <javac srcdir="tools/teavm" destdir="${tools.build}/teabuild" includeantruntime="false" release="17"
+               encoding="UTF-8" fork="true">
+            <classpath>
+                <fileset dir="${lib.dir}/teavm" includes="*.jar"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="dist" depends="tools" description="Build every game">
+        <subant target="dist" failonerror="true" inheritall="false">
+            <path refid="game.builds"/>
+        </subant>
+    </target>
+
+    <target name="test" depends="tools" description="Build and smoke-test every game">
+        <subant target="test" failonerror="true" inheritall="false">
+            <path refid="game.builds"/>
+        </subant>
+    </target>
+
+    <target name="media" depends="tools" description="Website screenshots and GIFs">
+        <subant target="media" failonerror="true" inheritall="false">
+            <path refid="game.builds"/>
+        </subant>
+    </target>
+
+    <target name="web" depends="tools" description="Browser demos for every game">
+        <subant target="web" failonerror="true" inheritall="false">
+            <path refid="game.builds"/>
+        </subant>
+    </target>
+
+    <target name="package" depends="dist" description="Collect release assets and the all-games ZIP">
+        <delete dir="${release.dir}"/>
+        <mkdir dir="${release.dir}/games"/>
+        <copy todir="${release.dir}/games" flatten="true">
+            <fileset dir="games" includes="*/dist/*.jar,*/dist/*.jad"/>
+        </copy>
+        <zip destfile="${release.dir}/j2me-100-games-v${collection.version}.zip" modificationtime="1767225600000">
+            <zipfileset dir="${release.dir}/games" prefix="j2me-100-games"/>
+            <zipfileset file="LICENSE" prefix="j2me-100-games"/>
+            <zipfileset file="docs/installing.md" prefix="j2me-100-games"/>
+        </zip>
+    </target>
+
+    <target name="clean" description="Remove all build output">
+        <subant target="clean" failonerror="false" inheritall="false">
+            <path refid="game.builds"/>
+        </subant>
+        <delete dir="${tools.build}"/>
+        <delete dir="${release.dir}"/>
+    </target>
+</project>

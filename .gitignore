@@ -1,0 +1,13 @@
+# toolchain (fetched by tools/bootstrap.py)
+tools/lib/
+tools/jre21/
+tools/build/
+*.part
+__pycache__/
+
+# build output
+games/*/build/
+games/*/dist/
+release/
+website/_site/
+reports/tmp/
