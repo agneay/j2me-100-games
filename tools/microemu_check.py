@@ -87,7 +87,7 @@ def main():
     if not ME_JAR.exists():
         sys.exit("MicroEmulator missing: run python tools/bootstrap.py")
     compile_check()
-    games = [g for g in catalog.load_games() if not a.ids or g["id"] in a.ids]
+    games = [g for g in catalog.load_games() if not a.ids or any(g["id"].startswith(i) for i in a.ids)]
     results = []
     with tempfile.TemporaryDirectory(prefix="microemu") as work:
         with concurrent.futures.ThreadPoolExecutor(a.jobs) as ex:
