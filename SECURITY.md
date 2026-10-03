@@ -28,4 +28,6 @@ Fixes are released as new versions, with credit to the reporter if they wish.
 ## Verifying downloads
 
 Every game JAR is built reproducibly (fixed timestamps) from the tagged source. You can rebuild any game
-yourself with `tools/build-game.sh NNN` and compare the JAR byte for byte with the released file.
+yourself with `tools/build-game.sh NNN` and compare the JAR with the released file. Builds with the same JDK
+version are byte-for-byte identical; a different JDK can encode the generated icon PNG differently, so compare
+the class files if the JDK differs.
